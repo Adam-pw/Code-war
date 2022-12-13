@@ -5,9 +5,6 @@ import ParticleBackground from '../components/particles/ParticleBackground'
 import Maincomp from '../components/Main/Main'
 import Aboutcomp from '../components/About/About'
 import Eventcomp from '../components/Event/Event'
-import Navbarcomp from '../components/Navbar/Navbar'
-import SideBarcomp from "../components/Sidebar/Sidebar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -18,8 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ParticleBackground />
-      <SideBarcomp>
-      </SideBarcomp>
       <Maincomp />
       <Aboutcomp />
       <Eventcomp />
