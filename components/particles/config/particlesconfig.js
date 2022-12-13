@@ -34,7 +34,7 @@ const particlesconfig = {
     "events": {
       "onClick": {
         "enable": false,
-        "mode": []
+        "mode": "repulse"
       },
       "onDiv": {
         "selectors": [],
@@ -43,8 +43,8 @@ const particlesconfig = {
         "type": "circle"
       },
       "onHover": {
-        "enable": false,
-        "mode": [],
+        "enable": true,
+        "mode": "grab",
         "parallax": {
           "enable": false,
           "force": 2,
@@ -297,11 +297,7 @@ const particlesconfig = {
           "value": 0
         },
         "enable": false,
-        "options": {
-          "sides": 6,
-          "turnSteps": 30,
-          "angle": 30
-        }
+        "options": {}
       },
       "outModes": {
         "default": "out",
@@ -312,7 +308,7 @@ const particlesconfig = {
       },
       "random": false,
       "size": false,
-      "speed": 5,
+      "speed": 1,
       "spin": {
         "acceleration": 0,
         "enable": false
@@ -379,7 +375,7 @@ const particlesconfig = {
       "animation": {
         "count": 0,
         "enable": false,
-        "speed": 5,
+        "speed": 2,
         "decay": 0,
         "sync": false,
         "destroy": "none",
@@ -587,43 +583,6 @@ const particlesconfig = {
       "height": 0,
       "width": 0
     },
-    // "particles": {
-    //   "shape": {
-    //     "type": "images",
-    //     "options": {
-    //       "images": {
-    //         "src": "https://particles.js.org/images/cyan_amongus.png",
-    //         "width": 500,
-    //         "height": 634
-    //       }
-    //     }
-    //   },
-    //   "size": {
-    //     "value": 40
-    //   },
-    //   "move": {
-    //     "speed": 10,
-    //     "outModes": {
-    //       "default": "none",
-    //       "right": "destroy"
-    //     },
-    //     "straight": true
-    //   },
-    //   "zIndex": {
-    //     "value": 0
-    //   },
-    //   "rotate": {
-    //     "value": {
-    //       "min": 0,
-    //       "max": 360
-    //     },
-    //     "animation": {
-    //       "enable": true,
-    //       "speed": 10,
-    //       "sync": true
-    //     }
-    //   }
-    // },
     "position": {
       "x": -5,
       "y": 55
