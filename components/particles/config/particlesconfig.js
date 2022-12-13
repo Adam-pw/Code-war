@@ -331,7 +331,7 @@ const particlesconfig = {
         "factor": 1000
       },
       "limit": 0,
-      "value": 200
+      "value": 800
     },
     "opacity": {
       "random": {
@@ -371,7 +371,7 @@ const particlesconfig = {
         "enable": false,
         "minimumValue": 1
       },
-      "value": 3,
+      "value": 1,
       "animation": {
         "count": 0,
         "enable": false,
