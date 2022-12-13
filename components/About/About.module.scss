@@ -1,0 +1,28 @@
+.head {
+  text-align: center;
+  color: blue;
+  margin: 1vw 1vw 0vw 1vw;
+  font-size: 2.75vw;
+  letter-spacing: 0.5vw;
+}
+.content {
+  margin: 0vw 12vw 3vw 12vw;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    margin: 1vw;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    margin: 1vw;
+    font-size: 1vw;
+    width: 50%;
+    text-align: justify;
+  }
+}
