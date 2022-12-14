@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import styles from "./Navbar.module.scss"
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineBulb } from 'react-icons/ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
 import { FiCamera } from 'react-icons/fi';
 import { FiInstagram } from 'react-icons/fi';
@@ -73,9 +74,15 @@ export default function Navbarcomp() {
               </Link>
             </div>
             <div className={styles.social}>
-              <div className={styles.icon}><FiInstagram /></div>
-              <div className={styles.icon}><AiOutlineLinkedin /></div>
-              <div className={styles.icon}><BiMessageDetail /></div>
+              <Link href="https://www.instagram.com/code_war_mits/">
+                <div className={styles.icon}><FiInstagram /></div>
+              </Link>
+              <Link href="https://www.instagram.com/code_war_mits/">
+                <div className={styles.icon}><AiOutlineLinkedin /></div>
+              </Link>
+              <Link href="https://www.instagram.com/code_war_mits/">
+                <div className={styles.icon}><BiMessageDetail /></div>
+              </Link>
             </div>
           </nav>
           {isHovering && (
@@ -100,9 +107,15 @@ export default function Navbarcomp() {
                 </Link>
               </div>
               <div className={styles.social}>
-                <div className={styles.icon}>Instagram</div>
-                <div className={styles.icon}>Linkedin</div>
-                <div className={styles.icon}>Gmail</div>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}>Instagram</div>
+                </Link>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}>Linkedin</div>
+                </Link>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}>Message</div>
+                </Link>
               </div>
             </nav>
           )}
@@ -113,8 +126,13 @@ export default function Navbarcomp() {
   return (
     <>
       <nav className={styles.nav3}>
-        <div className={styles.img} onClick={handleMouseClicked}>
-          Codewar Club
+        <div className={styles.burger}>
+          <div className={styles.img} onClick={handleMouseClicked}>
+            Codewar Club
+          </div>
+          <div className={styles.img} onClick={handleMouseClicked}>
+          <AiOutlineMenu/>
+          </div>
         </div>
         {isClicked &&
           <div >
@@ -131,13 +149,15 @@ export default function Navbarcomp() {
               <Link href="/events">
                 <div className={styles.icon}>Events</div>
               </Link>
-            </div>
-            <div className={styles.social}>
-              <Link href="/">
+              <Link href="https://www.instagram.com/code_war_mits/">
                 <div className={styles.icon}>Instagram</div>
               </Link>
-              <div className={styles.icon}>Linkedin</div>
-              <div className={styles.icon}>Gmail</div>
+              <Link href="https://www.instagram.com/code_war_mits/">
+                <div className={styles.icon}>Linkedin</div>
+              </Link>
+              <Link href="https://www.instagram.com/code_war_mits/">
+                <div className={styles.icon}>Message</div>
+              </Link>
             </div>
           </div>
         }
