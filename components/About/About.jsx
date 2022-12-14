@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Aboutcomp() {
     return (
         <>
-            <h1 className={styles.head}><b>ABOUT</b></h1>\
+            <h1 className={styles.head}><b>ABOUT</b></h1>
             <div className={styles.content}>
                 <div className={styles.image}>
                     <Image
