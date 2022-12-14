@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Eventcomp() {
     return (
         <>
-            <h1 className={styles.head}><b>EVENTS</b></h1>\
+            {/* <h1 className={styles.head}><b>EVENTS</b></h1>\
             <div className={styles.content}>
                 <div className={styles.image}>
                     <Image
@@ -31,7 +31,7 @@ export default function Eventcomp() {
                         height={400}
                     />
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

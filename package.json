@@ -27,6 +27,7 @@
     "react-router-dom": "^6.4.5",
     "react-tsparticles": "^2.5.1",
     "sass": "^1.56.0",
+    "sharp": "^0.31.2",
     "tailwind": "^4.0.0",
     "three": "^0.146.0",
     "threejs-toys": "^0.0.8",
