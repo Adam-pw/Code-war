@@ -6,7 +6,6 @@ import Maincomp from '../components/Main/Main'
 import Aboutcomp from '../components/About/About'
 import Eventcomp from '../components/Event/Event'
 import Navbarcomp from '../components/Navbar/Navbar'
-import Cardscomp from '../components/Cards/Cards'
 
 export default function About() {
   return (

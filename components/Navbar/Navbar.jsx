@@ -47,20 +47,22 @@ export default function Navbarcomp() {
       <>
         <div>
           <nav className={styles.nav} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-            <div className={styles.img}>
-              <Image src="/images/logo.png" alt="logo_codewar_vlub" height={200} width={200} />
-            </div>
+            <Link href="/">
+              <div className={styles.img}>
+                <Image src="/images/logo.png" alt="logo_codewar_vlub" height={200} width={200} />
+              </div>
+            </Link>
             <div className={styles.iconnav}>
               <div className={styles.icon}><AiOutlineHome /></div>
               <Link href="/about">
-              <div className={styles.icon}><BsPerson /></div>
+                <div className={styles.icon}><BsPerson /></div>
               </Link>
               <Link href="/gallery">
-                
-              <div className={styles.icon}><FiCamera /></div>
+
+                <div className={styles.icon}><FiCamera /></div>
               </Link>
               <Link href="/events">
-              <div className={styles.icon}><AiOutlineBulb /></div>
+                <div className={styles.icon}><AiOutlineBulb /></div>
               </Link>
             </div>
             <div className={styles.social}>
@@ -71,14 +73,24 @@ export default function Navbarcomp() {
           </nav>
           {isHovering && (
             <nav className={styles.nav2} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              <div className={styles.img}>
-                Codewar Club
-              </div>
+              <Link href="/">
+                <div className={styles.img}>
+                  Codewar Club
+                </div>
+              </Link>
               <div className={styles.iconnav}>
-                <div className={styles.icon}>Home</div>
-                <div className={styles.icon}>About Us</div>
-                <div className={styles.icon}>Gallery</div>
-                <div className={styles.icon}>Events</div>
+                <Link href="/">
+                  <div className={styles.icon}>Home</div>
+                </Link>
+                <Link href="/about">
+                  <div className={styles.icon}>About Us</div>
+                </Link>
+                <Link href="/gallery">
+                  <div className={styles.icon}>Gallery</div>
+                </Link>
+                <Link href="/events">
+                  <div className={styles.icon}>Events</div>
+                </Link>
               </div>
               <div className={styles.social}>
                 <div className={styles.icon}>Instagram</div>
@@ -100,13 +112,23 @@ export default function Navbarcomp() {
         {isClicked &&
           <div >
             <div className={styles.iconnav}>
-              <div className={styles.icon}>Home</div>
-              <div className={styles.icon}>About Us</div>
-              <div className={styles.icon}>Gallery</div>
-              <div className={styles.icon}>Events</div>
+              <Link href="/">
+                <div className={styles.icon}>Home</div>
+              </Link>
+              <Link href="/about">
+                <div className={styles.icon}>About Us</div>
+              </Link>
+              <Link href="/gallery">
+                <div className={styles.icon}>Gallery</div>
+              </Link>
+              <Link href="/events">
+                <div className={styles.icon}>Events</div>
+              </Link>
             </div>
             <div className={styles.social}>
-              <div className={styles.icon}>Instagram</div>
+              <Link href="/">
+                <div className={styles.icon}>Instagram</div>
+              </Link>
               <div className={styles.icon}>Linkedin</div>
               <div className={styles.icon}>Gmail</div>
             </div>
