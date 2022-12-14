@@ -12,8 +12,7 @@ import Image from "next/image";
 import { CSSTransition } from "react-transition-group";
 
 export default function Navbarcomp() {
-  const [windowWidth, setWindowWidth] = useState();
-  const [check, sizeCheck] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(1045);
 
   const setWindowDimensions = () => {
     setWindowWidth(window.innerWidth)
@@ -25,12 +24,6 @@ export default function Navbarcomp() {
       window.removeEventListener('resize', setWindowDimensions)
     }
   }, [])
-
-  const handleSizeCheck = () => {
-    if (window.innerWidth < 768) {
-      sizeCheck(true);
-    }
-  }
 
   const [isHovering, setIsHovering] = useState(false);
 
@@ -90,28 +83,4 @@ export default function Navbarcomp() {
       </>
     );
   }
-  return (
-    <>
-      <nav className={styles.nav3}>
-        <div className={styles.img} onClick={handleMouseClicked}>
-          Codewar Club
-        </div>
-        {isClicked &&
-          <div >
-            <div className={styles.iconnav}>
-              <div className={styles.icon}>Home</div>
-              <div className={styles.icon}>About Us</div>
-              <div className={styles.icon}>Gallery</div>
-              <div className={styles.icon}>Events</div>
-            </div>
-            <div className={styles.social}>
-              <div className={styles.icon}>Instagram</div>
-              <div className={styles.icon}>Linkedin</div>
-              <div className={styles.icon}>Gmail</div>
-            </div>
-          </div>
-        }
-      </nav>
-    </>
-  )
 }
