@@ -48,12 +48,12 @@ export default function Navbarcomp() {
   };
   return (
     <>
-      <CSSTransition
+      {/* <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
         classNames="NavAnimation"
         unmountOnExit
-      >
+      > */}
         <nav className={styles.nav} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <div className={styles.img}>
             <Image src="/images/logo.png" alt="logo_codewar_vlub" height={200} width={200} />
@@ -88,7 +88,7 @@ export default function Navbarcomp() {
             </div>
           </nav>
         )}
-      </CSSTransition>
+      {/* </CSSTransition> */}
       <button onClick={toggleNav} className="Burger">
         🍔
       </button>
