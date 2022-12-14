@@ -368,14 +368,14 @@ const particlesconfig = {
     },
     "size": {
       "random": {
-        "enable": false,
+        "enable": true,
         "minimumValue": 1
       },
       "value": 1,
       "animation": {
         "count": 0,
-        "enable": false,
-        "speed": 2,
+        "enable": true,
+        "speed": 4,
         "decay": 0,
         "sync": false,
         "destroy": "none",
@@ -485,7 +485,7 @@ const particlesconfig = {
     },
     "twinkle": {
       "lines": {
-        "enable": false,
+        "enable": true,
         "frequency": 0.05,
         "opacity": 1
       },
