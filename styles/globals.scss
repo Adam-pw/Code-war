@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~bootstrap/scss/bootstrap";
 
 html,
 body {
@@ -31,7 +32,11 @@ body {
       color-stop(0.86, rgb(28, 58, 148))
     );
   }
+
+ 
+  
 }
+
 
 a {
   color: inherit;

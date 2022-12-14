@@ -9,6 +9,8 @@ import { FiInstagram } from 'react-icons/fi';
 import { BiMessageDetail } from 'react-icons/bi';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Navbarcomp() {
   const [isHovering, setIsHovering] = useState(false);
@@ -28,7 +30,10 @@ export default function Navbarcomp() {
         </div>
         <div className={styles.iconnav}>
           <div className={styles.icon}><AiOutlineHome /></div>
+          <Link href="/about">
           <div className={styles.icon}><BsPerson /></div>
+          </Link>
+
           <div className={styles.icon}><FiCamera /></div>
           <div className={styles.icon}><AiOutlineBulb /></div>
         </div>
