@@ -53,7 +53,9 @@ export default function Navbarcomp() {
               </div>
             </Link>
             <div className={styles.iconnav}>
-              <div className={styles.icon}><AiOutlineHome /></div>
+              <Link href="/">
+                <div className={styles.icon}><AiOutlineHome /></div>
+              </Link>
               <Link href="/about">
                 <div className={styles.icon}><BsPerson /></div>
               </Link>
