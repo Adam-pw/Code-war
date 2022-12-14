@@ -10,6 +10,7 @@ import { BiMessageDetail } from 'react-icons/bi';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import Image from "next/image";
 import { CSSTransition } from "react-transition-group";
+import Link from "next/link";
 
 export default function Navbarcomp() {
   const [windowWidth, setWindowWidth] = useState(1045);
@@ -52,7 +53,9 @@ export default function Navbarcomp() {
             <div className={styles.iconnav}>
               <div className={styles.icon}><AiOutlineHome /></div>
               <div className={styles.icon}><BsPerson /></div>
+              <Link href="/gallery">
               <div className={styles.icon}><FiCamera /></div>
+              </Link>
               <div className={styles.icon}><AiOutlineBulb /></div>
             </div>
             <div className={styles.social}>
