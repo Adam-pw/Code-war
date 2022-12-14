@@ -13,7 +13,12 @@ import { CSSTransition } from "react-transition-group";
 import Link from "next/link";
 
 export default function Navbarcomp() {
-  const [windowWidth, setWindowWidth] = useState(1045);
+  let fix;
+  if (typeof window !== "undefined") {
+    fix = window.innerWidth;
+  }
+
+  const [windowWidth, setWindowWidth] = useState(fix);
 
   const setWindowDimensions = () => {
     setWindowWidth(window.innerWidth)
