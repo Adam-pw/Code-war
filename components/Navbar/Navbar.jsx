@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from "./Navbar.module.scss"
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineBulb } from 'react-icons/ai';
@@ -54,7 +54,6 @@ export default function Navbarcomp() {
         classNames="NavAnimation"
         unmountOnExit
       >
-
         <nav className={styles.nav} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           <div className={styles.img}>
             <Image src="/images/logo.png" alt="logo_codewar_vlub" height={200} width={200} />
