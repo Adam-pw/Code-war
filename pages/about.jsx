@@ -8,10 +8,6 @@ import Eventcomp from '../components/Event/Event'
 import Navbarcomp from '../components/Navbar/Navbar'
 import Cardscomp from '../components/Cards/Cards'
 
-
-
-
-
 export default function About() {
   return (
     <>
@@ -23,11 +19,6 @@ export default function About() {
       <ParticleBackground />
       <Navbarcomp/>
       <Aboutcomp/>
-      
-      
-     
-
-      
     </>
   )
 }
