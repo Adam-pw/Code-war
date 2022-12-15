@@ -9,22 +9,21 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 
 export default function Aboutcomp() {
     return (
-<>
-<div>
-<footer className={styles.foot}>
-        <ul className={styles.icons}>
-            <hr style={{width:'50%', marginLeft:'24vw'}}/>
-            <li className={styles.list}><a className={styles.iconss} href="#"><ion-icon name="logo-whatsapp"/><BsInstagram/></a></li>
-            <li className={styles.list}><a className={styles.iconss} href="#"><ion-icon name="logo-linkedin"/><AiOutlineLinkedin/></a></li>
-            
-            <li className={styles.list}><a className={styles.iconss} href="#"><ion-icon name="logo-instagram"/><BsWhatsapp/></a></li>
-            <p className={styles.copyrights}>Copyright @ 2022 All Rights Reserved.</p>
-        
-        </ul>
-      
-    </footer>
-    </div>;
-</>
+        <>
+            <footer className={styles.footmain}>
+                <div className={styles.foot}>
+                    <ul className={styles.icons}>
+                        <hr />
+                        <div className={styles.list}>
+                            <a className={styles.iconss} href="#"><BsInstagram /></a>
+                            <a className={styles.iconss} href="#"><AiOutlineLinkedin /></a>
+                            <a className={styles.iconss} href="#"><BsWhatsapp /></a>
+                        </div>
+                        <p className={styles.copyrights}>Copyright @ 2022 All Rights Reserved.</p>
+                    </ul>
+                </div>
+            </footer>
+        </>
 
     )
 }

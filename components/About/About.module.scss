@@ -37,6 +37,10 @@
   text-align: center;
   margin: 2vw;
   letter-spacing: 0.5vw;
+  @media screen and (max-width: 600px) {
+    font-size: 8vw;
+    margin: 4vw;
+  }
 }
 .cardp{
   margin: 2vw 12vw 2vw 12vw;
@@ -49,5 +53,6 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: 2vw 2vw 2vw 2vw;
   }
 }

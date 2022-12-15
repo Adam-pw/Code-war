@@ -20,12 +20,6 @@ export default function Home() {
       <Navbarcomp/>
       <Maincomp />
       <Footercomp/>
-
-      
-      
-     
-
-      
     </>
   )
 }
