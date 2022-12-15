@@ -70,8 +70,6 @@ const team_design = {
       instagram: "",
       external: "",
     },
-  ],
-  members: [
     {
       name: "Abhay Sonakiyaa",
       profile_pic: `${image_path}/Abhay_Sonakiyaa.jpg`,
