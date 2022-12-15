@@ -1,0 +1,39 @@
+.loader_wraper {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(14, 14, 14);
+  z-index: 1000;
+}
+
+.loaded {
+  &.loader_wraper {
+    transition: all 1.3s ease;
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+  .sticker {
+    transition: all 0.6s ease;
+    opacity: 0;
+  }
+}
+
+.sticker {
+  z-index: 1001;
+  width: 10vw;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 45%;
+  left: 45%;
+
+  @media only screen and (max-width: 600px) {
+    width: 30vw;
+    height: 30vw;
+    top: 37%;
+    left: 37%;
+  }
+}

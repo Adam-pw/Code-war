@@ -3,6 +3,10 @@
   color: white;
   margin: 5vw 1vw 0vw 1vw;
   font-size: 2.75vw;
+  @media only screen and (max-width: 600px) {
+    font-size: 8vw;
+    margin: 5vw 1vw 0vw 1vw;
+   }
 }
 
 .content {
@@ -13,18 +17,18 @@
   justify-content: center;
   align-items: center;
 
-  // .image {
-  //   margin: 1vw;
-  //   width: 50%;
-  //   display: flex;
-  //   justify-content: center;
-  // }
   .text {
     margin: 3vw;
     font-size: 1vw;
-    width: 70%;
     text-align: justify;
+    @media only screen and (max-width: 600px) {
+      font-size: 4vw;
+     }
   }
+  @media only screen and (max-width: 600px) {
+    font-size: 4vw;
+    margin: 0vw 2vw 3vw 2vw;
+   }
 }
 
 .heading{
@@ -33,6 +37,10 @@
   text-align: center;
   margin: 2vw;
   letter-spacing: 0.5vw;
+  @media screen and (max-width: 600px) {
+    font-size: 8vw;
+    margin: 4vw;
+  }
 }
 .cardp{
   margin: 2vw 12vw 2vw 12vw;
@@ -45,5 +53,6 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: 2vw 2vw 2vw 2vw;
   }
 }
