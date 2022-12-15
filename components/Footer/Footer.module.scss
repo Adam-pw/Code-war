@@ -1,0 +1,56 @@
+.foot{
+    background-color : rgba(0, 0, 0, 0.6);
+    text-align: center;
+    text-transform: uppercase;
+    // padding-top: 1.95vw;
+    margin-top: auto;
+    
+    
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    
+    z-index:1;
+    position: fixed;
+    // outline-style: solid;
+    // outline-width: 0.06vw;
+    // outline-color: gray;
+    // border: 0.05vw solid white;
+    // border-bottom: none;
+
+    
+   
+}
+.hr{
+    border: 0.3vw solid white;
+    border-bottom: none;
+    width: 50%;
+    margin: 100px auto;
+    
+}
+.list{
+    list-style: none;
+    margin: 0.5vw;
+    margin-top: 1.8vw;
+    display: inline-block;
+}
+
+.iconss{
+    background: gray;
+    color: #ffff;
+    padding: 0.91vw;
+    font-size: 0.8vw;
+    border-radius: 100%;
+    display: flex;
+}
+.iconss:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+
+.copyrights{
+    margin-top: 1vw;
+    
+    font-size: 0.6vw;
+}
