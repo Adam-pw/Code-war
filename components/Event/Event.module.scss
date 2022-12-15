@@ -4,30 +4,36 @@
   margin: 1vw 1vw 0vw 1vw;
   font-size: 2.75vw;
   letter-spacing: 0.5vw;
+  @media only screen and (max-width: 600px) {
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+  }
 }
-.ongoing{
+.ongoing {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.ongoing_banner{
+.ongoing_banner {
   display: flex;
   justify-content: center;
-  :hover{
+  :hover {
     background-color: blue;
   }
 }
-.past_events{
+.past_events {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 20px;
 }
-.carousel{
+.carousel {
   justify-content: center;
-  margin-right: 40px;
-  margin-left: 55px;
+  margin: 2vw 12vw;
+  @media only screen and (max-width: 600px) {
+    margin: 3vw 2vw;
+  }
 }
-.content{
+.content {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -50,3 +56,7 @@
 //     }
 //   }
 // }
+
+.events{
+  margin: 2vw 12vw;
+}
