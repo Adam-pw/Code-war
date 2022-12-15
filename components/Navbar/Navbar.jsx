@@ -12,6 +12,10 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 import Image from "next/image";
 import { CSSTransition } from "react-transition-group";
 import Link from "next/link";
+import {AiOutlineMail} from 'react-icons/ai';
+import {BsInstagram} from 'react-icons/bs';
+
+
 
 export default function Navbarcomp() {
   let fix;
@@ -117,6 +121,7 @@ export default function Navbarcomp() {
                   <div className={styles.icon}>Message</div>
                 </Link>
               </div>
+             
             </nav>
           )}
         </div>
@@ -127,8 +132,11 @@ export default function Navbarcomp() {
     <>
       <nav className={styles.nav3}>
         <div className={styles.burger}>
-          <div className={styles.img} onClick={handleMouseClicked}>
-            Codewar Club
+        <div className={styles.imgs}>
+                <Image  src="/images/logo.png" alt="logo_codewar_vlub" height={10} width={10} /></div>
+          <div className={styles.img1} onClick={handleMouseClicked}>
+         
+             <h1 className={styles.hea} >Codewar Club</h1>
           </div>
           <div className={styles.img} onClick={handleMouseClicked}>
           <AiOutlineMenu/>
@@ -140,24 +148,32 @@ export default function Navbarcomp() {
               <Link href="/">
                 <div className={styles.icon}>Home</div>
               </Link>
+              <hr className={styles.hrr} style={{width:'30%', marginLeft:'4vw'}}/>
               <Link href="/about">
                 <div className={styles.icon}>About Us</div>
               </Link>
+              <hr className={styles.hrr} style={{width:'30%', marginLeft:'4vw'}}/>
               <Link href="/gallery">
                 <div className={styles.icon}>Gallery</div>
               </Link>
+              <hr className={styles.hrr} style={{width:'30%', marginLeft:'4vw'}}/>
               <Link href="/events">
                 <div className={styles.icon}>Events</div>
               </Link>
-              <Link href="https://www.instagram.com/code_war_mits/">
-                <div className={styles.icon}>Instagram</div>
-              </Link>
-              <Link href="https://www.instagram.com/code_war_mits/">
-                <div className={styles.icon}>Linkedin</div>
-              </Link>
-              <Link href="https://www.instagram.com/code_war_mits/">
-                <div className={styles.icon}>Message</div>
-              </Link>
+              <hr className={styles.hrr} style={{width:'30%', marginLeft:'4vw'}}/>
+              <div className={styles.list}>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}><BsInstagram/>Instagram</div>
+                </Link>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}><AiOutlineLinkedin/>LinkedIn</div>
+                </Link>
+                <Link href="https://www.instagram.com/code_war_mits/">
+                  <div className={styles.icon}><AiOutlineMail/>Message</div>
+                </Link>
+                
+              </div>
+              
             </div>
           </div>
         }
