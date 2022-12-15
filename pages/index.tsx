@@ -6,6 +6,7 @@ import Maincomp from '../components/Main/Main'
 import Aboutcomp from '../components/About/About'
 import Eventcomp from '../components/Event/Event'
 import Navbarcomp from '../components/Navbar/Navbar'
+import Footercomp from '../components/Footer/Footer'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <ParticleBackground />
       <Navbarcomp/>
       <Maincomp />
+      <Footercomp/>
 
       
       
