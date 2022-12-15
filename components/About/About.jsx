@@ -40,12 +40,12 @@ export default function Aboutcomp() {
                     <TeamGrid team={teams.team_design} />
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <h1 className={styles.heading}><b>{teams.team_all.title}</b></h1>
                 <div className={styles.cardp}>
                     <TeamGrid team={teams.team_all} />
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

@@ -71,6 +71,16 @@ const team_design = {
       external: "",
     },
   ],
+  members: [
+    {
+      name: "Abhay Sonakiyaa",
+      profile_pic: `${image_path}/Abhay_Sonakiyaa.jpg`,
+      department: "AIADS",
+      linkedIn: "",
+      instagram: "",
+      external: "",
+    },
+  ],
 };
 
 const team_all = {
