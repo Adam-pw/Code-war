@@ -9,6 +9,7 @@ import data_imgs from "../metadata/gallery_meta.js";
 import MediaQuery from 'react-responsive'
 import styles from "../styles/Gallery.module.scss";
 
+
 export default function Gallery() {
     return (
         <>
@@ -191,6 +192,8 @@ export default function Gallery() {
                     </MediaQuery>
                 </div>
             </div>
+
+            
         </>
     )
 }
