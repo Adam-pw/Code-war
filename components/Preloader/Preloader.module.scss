@@ -1,0 +1,92 @@
+.loader_wraper {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(14, 14, 14);
+  z-index: 1000;
+}
+
+.loaded {
+  &.loader_wraper {
+    transition: all 1.3s ease;
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+  .sticker {
+    transition: all 0.6s ease;
+    opacity: 0;
+  }
+}
+
+.sticker {
+  z-index: 1001;
+  width: 10vw;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 45%;
+  left: 45%;
+
+  @media only screen and (max-width: 600px) {
+    width: 30vw;
+    height: 30vw;
+    top: 37%;
+    left: 37%;
+  }
+
+  //     .line {
+  //       position: absolute;
+  //       width: 100px;
+  //       height: 100px;
+  //       border-radius: 50%;
+  //       border: 2px solid #222;
+  //     }
+
+  //     .line:nth-child(1) {
+  //       position: absolute;
+  //       width: 160px;
+  //       height: 160px;
+  //       border-right: 2px solid rgb(128, 148, 240);
+  //       border-bottom: 2px solid rgb(128, 148, 240);
+  //       animation: animation 600ms linear infinite;
+  //     }
+
+  //     .line:nth-child(2) {
+  //       width: 120px;
+  //       height: 120px;
+  //       border-left: 2px solid blueviolet;
+  //       border-top: 2px solid blueviolet;
+  //       animation: animation 600ms linear infinite;
+  //     }
+
+  //     .line:nth-child(3) {
+  //       position: absolute;
+  //       width: 150px;
+  //       height: 150px;
+  //       border-right: 2px solid rgb(205, 50, 50);
+  //       border-top: 2px solid rgb(205, 50, 50);
+  //       animation: animation 1200ms linear infinite;
+  //     }
+
+  //     .line:nth-child(4) {
+  //       position: absolute;
+  //       width: 180px;
+  //       height: 180px;
+  //       border-right: 2px solid coral;
+  //       border-top: 2px solid coral;
+  //       animation: animation 900ms linear infinite;
+  //     }
+
+  //     .name{
+  //         color: white;
+  //     }
+  //   }
+
+  //   @keyframes animation {
+  //     to {
+  //       transform: rotate(360deg);
+  //     }
+}
