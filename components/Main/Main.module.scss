@@ -1,18 +1,29 @@
 // @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
-.head{
-    text-align: left;
-    color: white;
-    margin-top: 10vw;
-    margin-left: 15vw;
-    font-size: 4vw;
-    line-height: 5vw;
+.head {
+  text-align: left;
+  color: white;
+  margin-top: 10vw;
+  margin-left: 15vw;
+  font-size: 4vw;
+  line-height: 5vw;
+  @media only screen and (max-width: 600px) {
+    font-size: 12vw;
+    line-height: 15vw;
+    margin-top: 20vw;
+    margin-left: 6vw;
+  }
 }
 
-.head1{
-    text-align: left;
-    font-size: 1vw;
-    color: white;
-    margin-left: 15vw;
-    margin-top: 2.5vw;
+.head1 {
+  text-align: left;
+  font-size: 1vw;
+  color: white;
+  margin-left: 15vw;
+  margin-top: 2.5vw;
+  @media only screen and (max-width: 600px) {
+    font-size: 4vw;
+    margin-left: 6vw;
+    margin-top: 5vw;
+  }
 }
