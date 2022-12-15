@@ -13,7 +13,7 @@
     box-shadow: 0 8px 16px 0 #e66465;
   }
   @media screen and (max-width: 600px) {
-    height: 70vw;
+    height: 150vw;
     flex-direction: column;
     margin-bottom: 8vw;
   }
@@ -21,10 +21,10 @@
 
 .slideshow {
   margin: 0 auto;
-  flex: 1;
   overflow: hidden;
-  height: 100%;
-  width: 100%;
+  height: 25vw;
+  width: 75vw;
+  flex: 1;
 
   .slideshowSlider {
     white-space: nowrap;
@@ -38,8 +38,12 @@
       background-size: cover;
       @media screen and (max-width: 600px) {
         font-size: 2.4vw;
+        height: 70vw;
       }
     }
+  }
+  @media screen and (max-width: 600px) {
+      height: 120vw;
   }
 }
 
@@ -66,7 +70,7 @@
     }
   }
   .overflow {
-    padding: 1rem 0rem;
+    padding: 1vw 0vw;
   }
   @media screen and (max-width: 600px) {
     font-size: 2.4vw;
