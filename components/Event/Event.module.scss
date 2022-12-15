@@ -5,20 +5,48 @@
   font-size: 2.75vw;
   letter-spacing: 0.5vw;
 }
-.content {
-  margin: 0vw 12vw 1vw 12vw;
-  color: white;
+.ongoing{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.ongoing_banner{
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-
-  .image {
-    margin: 2vw;
-    display: flex;
-    justify-content: center;
-    :hover{
-      background-color: blue;
-    }
+  :hover{
+    background-color: blue;
   }
 }
+.past_events{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 20px;
+}
+.carousel{
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 55px;
+}
+.content{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+// .content {
+//   margin: 0vw 12vw 1vw 12vw;
+//   color: white;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+
+//   .image {
+//     margin: 2vw;
+//     display: flex;
+//     justify-content: center;
+//     :hover{
+//       background-color: blue;
+//     }
+//   }
+// }

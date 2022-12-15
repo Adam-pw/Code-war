@@ -18,8 +18,8 @@ export default function Events() {
         <link rel="icon" href="/images/logo.png" />
       </Head>
       <ParticleBackground />
-      <Navbarcomp/>
       <Eventcomp/>
+      <Navbarcomp/> 
     </>
   )
 }
