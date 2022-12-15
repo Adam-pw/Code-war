@@ -15,9 +15,9 @@ export default function Aboutcomp() {
                     <ul className={styles.icons}>
                         <hr />
                         <div className={styles.list}>
-                            <a className={styles.iconss} href="#"><BsInstagram /></a>
-                            <a className={styles.iconss} href="#"><AiOutlineLinkedin /></a>
-                            <a className={styles.iconss} href="#"><BsWhatsapp /></a>
+                            <a className={styles.iconss} href="https://www.instagram.com/code_war_mits/"><BsInstagram /></a>
+                            <a className={styles.iconss} href="https://in.linkedin.com/company/codewar-club-mits"><AiOutlineLinkedin /></a>
+                            <a className={styles.iconss} href="https://www.instagram.com/code_war_mits/"><BsWhatsapp /></a>
                         </div>
                         <p className={styles.copyrights}>Copyright @ 2022 All Rights Reserved.</p>
                     </ul>

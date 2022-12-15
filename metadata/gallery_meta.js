@@ -95,6 +95,12 @@ const data_imgs = [
     alt: "CodeWar Club",
     caption: "CodeWar Club",
   },
+  {
+    link: "/images/Gallery/17.png",
+    src: "/images/Gallery/17.png",
+    alt: "CodeWar Club",
+    caption: "CodeWar Club",
+  },
 ];
 
 export default data_imgs;

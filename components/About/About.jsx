@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from "./About.module.scss"
 import Card from "../Card/Card"
+import teams from "../../metadata/team_meta"
+import TeamGrid from "../Card/Teamgrid"
+
 
 export default function Aboutcomp() {
     return (
@@ -20,27 +23,27 @@ export default function Aboutcomp() {
                 </div>
             </div>
             <div>
-                <h1 className={styles.heading}><b>OUR CORE TEAM</b></h1>
+                <h1 className={styles.heading}><b>{teams.team_heads.title}</b></h1>
                 <div className={styles.cardp}>
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <TeamGrid team={teams.team_heads} />
                 </div>
             </div>
             <div>
-                <h1 className={styles.heading}><b>DEV TEAM</b></h1>
+                <h1 className={styles.heading}><b>{teams.team_dev.title}</b></h1>
                 <div className={styles.cardp}>
-                    <Card />
-                    <Card />
+                    <TeamGrid team={teams.team_dev} />
                 </div>
             </div>
             <div>
-                <h1 className={styles.heading}><b>DESIGN TEAM</b></h1>
+                <h1 className={styles.heading}><b>{teams.team_design.title}</b></h1>
                 <div className={styles.cardp}>
-                    <Card />
-                    <Card />
-                    <Card />
+                    <TeamGrid team={teams.team_design} />
+                </div>
+            </div>
+            <div>
+                <h1 className={styles.heading}><b>{teams.team_all.title}</b></h1>
+                <div className={styles.cardp}>
+                    <TeamGrid team={teams.team_all} />
                 </div>
             </div>
         </>

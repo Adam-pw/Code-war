@@ -25,6 +25,9 @@
   height: 25vw;
   width: 75vw;
   flex: 1;
+  @media only screen and (max-width: 600px) {
+    height: 120vw;
+  }
 
   .slideshowSlider {
     white-space: nowrap;
@@ -41,9 +44,6 @@
         height: 70vw;
       }
     }
-  }
-  @media screen and (max-width: 600px) {
-      height: 120vw;
   }
 }
 

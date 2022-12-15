@@ -20,7 +20,7 @@ export default function TeamCard({meta}) {
   return (
     <div className={styles.contaiermain}> 
           <div className={styles.container}>
-            <img src="images/log.png" alt="adam" className={styles.image}/>
+            <img src={meta.profile_pic} alt={meta.name} className={styles.image}/>
             <div className={styles.overlay} style={{backgroundColor: getRandomColor()}}>
               <div className={styles.text}>
                 <div>
@@ -47,9 +47,9 @@ export default function TeamCard({meta}) {
             </div>
           </div>
         <div className={styles.details}> 
-          <b>ihkhkh</b>
+          <b>{meta.name}</b>
           <span>
-          itiot
+          {meta.department}
           </span>
         </div>
       </div>

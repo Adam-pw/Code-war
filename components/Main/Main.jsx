@@ -8,7 +8,7 @@ export default function Maincomp() {
                     <br />WELCOME TO
                     <br />CODE-WAR CLUB.
                 </h1>
-                <p className={styles.head1}>Lorem ipsum dolor sit amet, consectetur quidem temporibus <br />magni! Possimus repellendus sapiente dolores corrupti.</p>
+                <p className={styles.head1}>The only Coding CLub in Madhav Institute of Technology and Science<br />{"Let's learn and Code Together"}</p>
         </>
     )
 }

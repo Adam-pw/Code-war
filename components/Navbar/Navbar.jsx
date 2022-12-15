@@ -81,7 +81,7 @@ export default function Navbarcomp() {
               <Link href="https://www.instagram.com/code_war_mits/">
                 <div className={styles.icon}><FiInstagram /></div>
               </Link>
-              <Link href="https://www.instagram.com/code_war_mits/">
+              <Link href="https://in.linkedin.com/company/codewar-club-mits">
                 <div className={styles.icon}><AiOutlineLinkedin /></div>
               </Link>
               <Link href="https://www.instagram.com/code_war_mits/">
@@ -114,7 +114,7 @@ export default function Navbarcomp() {
                 <Link href="https://www.instagram.com/code_war_mits/">
                   <div className={styles.icon}>Instagram</div>
                 </Link>
-                <Link href="https://www.instagram.com/code_war_mits/">
+                <Link href="https://in.linkedin.com/company/codewar-club-mits">
                   <div className={styles.icon}>Linkedin</div>
                 </Link>
                 <Link href="https://www.instagram.com/code_war_mits/">
@@ -165,7 +165,7 @@ export default function Navbarcomp() {
                 <Link href="https://www.instagram.com/code_war_mits/">
                   <div className={styles.icon}><BsInstagram />Instagram</div>
                 </Link>
-                <Link href="https://www.instagram.com/code_war_mits/">
+                <Link href="https://in.linkedin.com/company/codewar-club-mits">
                   <div className={styles.icon}><AiOutlineLinkedin />LinkedIn</div>
                 </Link>
                 <Link href="https://www.instagram.com/code_war_mits/">
