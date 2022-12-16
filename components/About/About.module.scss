@@ -1,3 +1,15 @@
+.text {
+  text-align: center;
+  color: white;
+  margin: 5vw 1vw 0vw 1vw;
+  margin-bottom: 7vw;
+  font-size: 2.75vw;
+  @media only screen and (max-width: 600px) {
+    font-size: 8vw;
+    margin: 5vw 1vw 0vw 1vw;
+   }
+}
+
 .head {
   text-align: center;
   color: blue;
@@ -32,37 +44,13 @@
   }
 }
 
-.heading {
-  font-size: 3vw;
-  color: blue;
-  text-align: center;
-  margin: 2vw;
-  letter-spacing: 0.5vw;
-  @media screen and (max-width: 600px) {
-    font-size: 8vw;
-    margin: 4vw;
-  }
-}
-.cardp {
-  margin: 2vw 12vw 5vw 12vw;
+.container {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-
-  @media only screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2vw 2vw 8vw 2vw;
-  }
-}
-
-.carousel {
+  flex-flow: row wrap;
   justify-content: center;
-  margin: 2vw 12vw;
-  @media only screen and (max-width: 600px) {
-    margin: 3vw 2vw;
-  }
+  align-items: center;
+  background:rgba(0, 0, 0, 0.6) ;
+  margin:9.29vh 18.5vh 12vh 0;
+  justify-items: center;
 }

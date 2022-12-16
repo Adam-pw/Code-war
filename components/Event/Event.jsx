@@ -9,7 +9,7 @@ import events from "../../metadata/events_meta.js";
 export default function Eventcomp() {
     return (
         <>
-            <h1 className={styles.head}><b>EVENTS</b></h1>
+            <div className={styles.head}><b>EVENTS</b></div>
             {/*ongoing events*/}
             {/* <h2 className={styles.ongoing}>ONGOING EVENTS</h2>
             <div className={styles.ongoing_banner}>
