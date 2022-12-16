@@ -171,9 +171,7 @@ export default function Navbarcomp() {
                 <Link href="https://www.instagram.com/code_war_mits/">
                   <div className={styles.icon}><AiOutlineMail />Message</div>
                 </Link>
-
               </div>
-
             </div>
           </div>
         }
