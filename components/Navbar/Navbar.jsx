@@ -93,7 +93,7 @@ export default function Navbarcomp() {
             <nav className={styles.nav2} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
               <Link href="/">
                 <div className={styles.img}>
-                  Codewar Club
+                 <h1 className={styles.hea}> Codewar Club</h1>
                 </div>
               </Link>
               <div className={styles.iconnav}>

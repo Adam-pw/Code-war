@@ -7,11 +7,15 @@
   margin-left: 15vw;
   font-size: 4vw;
   line-height: 5vw;
+  
   @media only screen and (max-width: 600px) {
     font-size: 12vw;
     line-height: 15vw;
     margin-top: 20vw;
     margin-left: 6vw;
+
+    
+
   }
 }
 
@@ -21,6 +25,7 @@
   color: white;
   margin-left: 15vw;
   margin-top: 2.5vw;
+  font-family: 'Tajawal', sans-serif;
   @media only screen and (max-width: 600px) {
     font-size: 4vw;
     margin-left: 6vw;
