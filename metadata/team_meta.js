@@ -13,7 +13,7 @@ const team_heads = {
     {
       name: "Megha Tomar",
       profile_pic: `${image_path}/Megha_Tomar.jpg`,
-      department: "EC",
+      department: "ITIOT",
       linkedIn: "",
       instagram: "",
       external: "",
@@ -57,7 +57,7 @@ const team_design = {
     {
       name: "Teena Chhabra",
       profile_pic: `${image_path}/Teena_Chhabra.jpeg`,
-      department: "AIADS",
+      department: "CSD",
       linkedIn: "",
       instagram: "",
       external: "",
@@ -65,7 +65,7 @@ const team_design = {
     {
       name: "Naman Dubey",
       profile_pic: `${image_path}/Naman_Dubey.jpeg`,
-      department: "AIADS",
+      department: "ITIOT",
       linkedIn: "",
       instagram: "",
       external: "",
@@ -73,7 +73,7 @@ const team_design = {
     {
       name: "Abhay Sonakiyaa",
       profile_pic: `${image_path}/Abhay_Sonakiyaa.jpg`,
-      department: "AIADS",
+      department: "CSD",
       linkedIn: "",
       instagram: "",
       external: "",
