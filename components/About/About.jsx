@@ -30,6 +30,14 @@ export default function Aboutcomp() {
                     github=""
                     linkedin=""
                 />
+                <Card
+
+                    name="Rishi Chhabra"
+                    img="/images/Team/Rishi_Chhabra.jpeg"
+                    branch="EC"
+                    github=""
+                    linkedin=""
+                />
             </div>
             <div className={styles.text}><b>Web-Dev Team</b></div>
             <div className={styles.container}>
@@ -74,6 +82,13 @@ export default function Aboutcomp() {
                 <Card
                     name="Abhay Sonakiyaa"
                     img="/images/Team/Abhay_Sonakiyaa.jpg"
+                    branch="CSD"
+                    github=""
+                    linkedin=""
+                />
+                <Card
+                    name="Aditya Soni"
+                    img="/images/Team/Aditya_Soni.jpg"
                     branch="CSD"
                     github=""
                     linkedin=""

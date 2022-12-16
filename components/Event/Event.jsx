@@ -15,7 +15,6 @@ export default function Eventcomp() {
                             description={event_card.description}
                             images={event_card.images}
                         />
-
                     );
                 })}
             </div>
