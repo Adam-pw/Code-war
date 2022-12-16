@@ -86,10 +86,20 @@ export default function Aboutcomp() {
                     github=""
                     linkedin=""
                 />
+            </div>
+            <div className={styles.text}><b>Core Team Members</b></div>
+            <div className={styles.container}>
                 <Card
                     name="Aditya Soni"
                     img="/images/Team/Aditya_Soni.jpg"
                     branch="CSD"
+                    github=""
+                    linkedin=""
+                />
+                <Card
+                    name="Satyam Singh Tomar"
+                    img="/images/Team/Satyam_SIngh_Tomar.jpg"
+                    branch="IT"
                     github=""
                     linkedin=""
                 />
