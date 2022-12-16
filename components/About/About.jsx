@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from "./About.module.scss"
 import teams from "../../metadata/team_meta"
-import TeamGrid from "../Card/Teamgrid"
-import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
 import Card from "../Card/Card"
 
@@ -15,7 +13,7 @@ export default function Aboutcomp() {
                     {"Greetings Everyone, Welcome to the Madhav Institute of Technology & Science, Gwalior's CodeWar Club. We are creating a community that will concentrate on learning and creating various kinds of programming and development-related initiatives. Numerous webinars, workshops, industry lectures, coding marathons, hackathons, and other events are organised by us. Our primary goal is to advance coding and programming in the college so that everyone is aware of its significance. Coding is a necessary ability in today's technologically advanced period, and all IT-related companies only hire people with this knowledge.As a result, we continuously work to promote this cause while simultaneously learning these lessons as a group. Being a member of this club will provide you the chance to learn various skills not only coding but skills such as public speaking, designing, managing events, and other relevant tasks."}
                 </div>
             </div>
-            <h1 className={styles.text}>Team Heads</h1>
+            <div className={styles.text}><b>Team Heads</b></div>
             <div className={styles.container}>
                 <Card
                     name="Antesh Tiwari"
@@ -33,7 +31,7 @@ export default function Aboutcomp() {
                     linkedin=""
                 />
             </div>
-            <h1 className={styles.text}>Web-Dev Team</h1>
+            <div className={styles.text}><b>Web-Dev Team</b></div>
             <div className={styles.container}>
                 <Card
                     name="Spandita Dwivedi"
@@ -57,7 +55,7 @@ export default function Aboutcomp() {
                     linkedin=""
                 />
             </div>
-            <h1 className={styles.text}>Team Design</h1>
+            <div className={styles.text}><b>Team Design</b></div>
             <div className={styles.container}>
                 <Card
                     name="Teena Chhabra"

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Card.module.scss";
+import { AiOutlineLinkedin } from 'react-icons/ai';
 
 export default function Cardcomp(props) {
   return (
@@ -16,8 +17,8 @@ export default function Cardcomp(props) {
               <div className={styles.info}>
               </div>
               <div className={styles.actions}>
-                <button className={styles.bu1}>{props.github}</button>
-                <button className={styles.bu1}>{props.linkedin}</button>
+               <div className={styles.cs}> <button className={styles.bu1}>{props.github}Github</button></div>
+                <button className={styles.bu1}>{props.linkedin}LinkedIn</button>
               </div>
             </div>
           </div>

@@ -65,12 +65,14 @@
   }
   .title {
     font-size: 3vw;
+    font-family: "Dosis", sans-serif;
     @media screen and (max-width: 600px) {
       font-size: 6vw;
     }
   }
   .overflow {
     padding: 1vw 0vw;
+    font-family: "Tajawal", sans-serif;
   }
   @media screen and (max-width: 600px) {
     font-size: 2.4vw;

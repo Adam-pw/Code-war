@@ -1,9 +1,10 @@
 .head {
-  color: blue;
   text-align: center;
   font-size: 3vw;
-  margin: 2vw;
+  color: white;
   letter-spacing: 0.5vw;
+  margin: 2vw;
+  font-family: 'Dosis', sans-serif;
   @media only screen and (max-width: 600px) {
     font-size: 8vw;
     margin: 4vw;
@@ -23,10 +24,6 @@
   figure {
     margin: 10px;
   }
-
-  // &:hover &__image {
-  //   filter: grayscale(1);
-  // }
 
   &__column {
     display: flex;
