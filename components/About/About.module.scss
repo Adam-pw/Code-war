@@ -1,12 +1,13 @@
 .head {
   text-align: center;
-  color: white;
+  color: blue;
   margin: 5vw 1vw 0vw 1vw;
-  font-size: 2.75vw;
+  font-size: 3vw;
+  letter-spacing: 0.5vw;
   @media only screen and (max-width: 600px) {
     font-size: 8vw;
     margin: 5vw 1vw 0vw 1vw;
-   }
+  }
 }
 
 .content {
@@ -23,15 +24,15 @@
     text-align: justify;
     @media only screen and (max-width: 600px) {
       font-size: 4vw;
-     }
+    }
   }
   @media only screen and (max-width: 600px) {
     font-size: 4vw;
     margin: 0vw 2vw 3vw 2vw;
-   }
+  }
 }
 
-.heading{
+.heading {
   font-size: 3vw;
   color: blue;
   text-align: center;
@@ -42,7 +43,7 @@
     margin: 4vw;
   }
 }
-.cardp{
+.cardp {
   margin: 2vw 12vw 5vw 12vw;
   display: flex;
   flex-direction: row;
@@ -50,10 +51,18 @@
   align-items: center;
 
   @media only screen and (max-width: 600px) {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 2vw 2vw 8vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 2vw 8vw 2vw;
+  }
+}
+
+.carousel {
+  justify-content: center;
+  margin: 2vw 12vw;
+  @media only screen and (max-width: 600px) {
+    margin: 3vw 2vw;
   }
 }
