@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Card.module.scss";
 import { AiOutlineLinkedin } from 'react-icons/ai';
+import Image from "next/image";
 
 export default function Cardcomp(props) {
   return (
@@ -9,7 +10,7 @@ export default function Cardcomp(props) {
         <div className={styles.card}>
           <div className={styles.lines}></div>
           <div className={styles.imageBox}>
-            <img className={styles.imge} src={props.img} alt="avatar" />
+            <Image width={500} height={500} className={styles.imge} src={props.img} alt="avatar" />
           </div>
           <div className={styles.content}>
             <div className={styles.details}>

@@ -20,7 +20,7 @@ export default function Gallery() {
                 <meta name="robots" content="index, follow" />
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="language" content="English" />
-                <link rel="icon" href="/images/logo.png" />
+                <link rel="icon" href="/images/logo.webp" />
             </Head>
             <ParticleBackground />
             <Navbarcomp />
