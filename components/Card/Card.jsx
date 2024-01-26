@@ -24,11 +24,11 @@ export default function Cardcomp(props) {
                     <button className={styles.bu1}>Instagram</button>
                   </a>
                 </div>
-                
+                <div>
                   <a href={`https://www.linkedin.com/in/${props.linkedin}`} target="_blank" rel="noopener noreferrer">
                     <button className={styles.bu1}>LinkedIn</button>
                   </a>
-                
+                </div>
               </div>
             </div>
           </div>
