@@ -14,17 +14,26 @@ export default function Cardcomp(props) {
           </div>
           <div className={styles.content}>
             <div className={styles.details}>
-              <div className={styles.head}>{props.name} <br /> <span className={styles.spand}>{props.branch}</span></div><br />
-              <div className={styles.info}>
+              <div className={styles.head}>
+                {props.name} <br /> <span className={styles.spand}>{props.branch}</span>
               </div>
+              <div className={styles.info}></div>
               <div className={styles.actions}>
-               <div className={styles.cs}><button className={styles.bu1}>{props.instagram}Instagram</button></div>
-                <button className={styles.bu1}>{props.linkedin}LinkedIn</button>
+                <div className={styles.cs}>
+                  <a href={`https://www.instagram.com/${props.instagram}`} target="_blank" rel="noopener noreferrer">
+                    <button className={styles.bu1}>Instagram</button>
+                  </a>
+                </div>
+                <div>
+                  <a href={`https://www.linkedin.com/in/${props.linkedin}`} target="_blank" rel="noopener noreferrer">
+                    <button className={styles.bu1}>LinkedIn</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
