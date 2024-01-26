@@ -19,7 +19,7 @@ export default function Aboutcomp() {
                     name="Antesh Tiwari"
                     img="/images/Team/Antesh_Tiwari.jpg"
                     branch="EC"
-                    github=""
+                    github="https://github.com/Adam-pw/Code-war/blob/main/components/Navbar/Navbar.jsx"
                     linkedin=""
                 />
                 <Card
