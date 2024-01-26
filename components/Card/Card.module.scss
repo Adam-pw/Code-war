@@ -209,6 +209,20 @@
   transition: 0.5s;
 }
 
+.bu2 {
+  min-width: 100px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
 .card .content .details .actions button:nth-child(2) {
   background: #fff;
 }
