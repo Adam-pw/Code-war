@@ -18,7 +18,7 @@ export default function Cardcomp(props) {
               <div className={styles.info}>
               </div>
               <div className={styles.actions}>
-               <div className={styles.cs}> <button className={styles.bu1}><link href='/{props.instagram}'>Instagram</link></button></div>
+               <div className={styles.cs}> <button className={styles.bu1}><link href={props.instagram}>Instagram</link></button></div>
                 <button className={styles.bu1}>{props.linkedin}LinkedIn</button>
               </div>
             </div>
