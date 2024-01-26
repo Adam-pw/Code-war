@@ -19,7 +19,7 @@ export default function Aboutcomp() {
                     name="Antesh Tiwari"
                     img="/images/Team/Antesh_Tiwari.jpg"
                     branch="EC"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
@@ -27,7 +27,7 @@ export default function Aboutcomp() {
                     name="Megha Tomar"
                     img="/images/Team/Megha_Tomar.jpg"
                     branch="ITIOT"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
@@ -35,7 +35,7 @@ export default function Aboutcomp() {
                     name="Rishi Chhabra"
                     img="/images/Team/Rishi_Chhabra.jpeg"
                     branch="EC"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
             </div>
@@ -45,21 +45,21 @@ export default function Aboutcomp() {
                     name="Spandita Dwivedi"
                     img="/images/Team/Spandita_dwivedi.jpeg"
                     branch="AIADS"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
                     name="Adam Pithenwala"
                     img="/images/Team/Adam_Pithenwala.jpeg"
                     branch="AIADS"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
                     name="Tanvi Shah"
                     img="/images/Team/Tanvi_Shah.jpeg"
                     branch="AIADS"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
             </div>
@@ -69,21 +69,21 @@ export default function Aboutcomp() {
                     name="Teena Chhabra"
                     img="/images/Team/Teena_Chhabra.jpeg"
                     branch="CSD"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
                     name="Naman Dubey"
                     img="/images/Team/Naman_Dubey.jpeg"
                     branch="ITIOT"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
                     name="Abhay Sonakiyaa"
                     img="/images/Team/Abhay_Sonakiyaa.jpg"
                     branch="CSD"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
             </div>
@@ -93,14 +93,14 @@ export default function Aboutcomp() {
                     name="Aditya Soni"
                     img="/images/Team/Aditya_Soni.jpg"
                     branch="CSD"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
                 <Card
                     name="Satyam Singh Tomar"
                     img="/images/Team/Satyam_SIngh_Tomar.jpg"
                     branch="IT"
-                    github=""
+                    instagram=""
                     linkedin=""
                 />
             </div>
