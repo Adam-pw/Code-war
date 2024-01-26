@@ -19,7 +19,7 @@ export default function Aboutcomp() {
                     name="Antesh Tiwari"
                     img="/images/Team/Antesh_Tiwari.jpg"
                     branch="EC"
-                    instagram="https://i.kwin.in/Ultimate_Code_-_Insiders.png"
+                    instagram=""
                     linkedin=""
                 />
                 <Card
