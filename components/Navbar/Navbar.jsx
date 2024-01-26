@@ -59,7 +59,7 @@ export default function Navbarcomp() {
           <nav className={styles.nav} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
             <Link href="/">
               <div className={styles.img}>
-                <Image src="/images/logo.webp" alt="logo_codewar_vlub" height={200} width={200} />
+                <Image src="/images/logo.png" alt="logo_codewar_vlub" height={200} width={200} />
               </div>
             </Link>
             <div className={styles.iconnav}>
