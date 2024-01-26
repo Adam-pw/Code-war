@@ -19,7 +19,7 @@ export default function Aboutcomp() {
                     name="Antesh Tiwari"
                     img="/images/Team/Antesh_Tiwari.jpg"
                     branch="EC"
-                    instagram="https://github.com/Adam-pw/Code-war/edit/main/components/About/About.jsx"
+                    instagram=""
                     linkedin=""
                 />
                 <Card
