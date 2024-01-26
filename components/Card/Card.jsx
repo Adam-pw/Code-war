@@ -26,7 +26,7 @@ export default function Cardcomp(props) {
                 </div>
                 <div>
                   <a href={`https://www.linkedin.com/in/${props.linkedin}`} target="_blank" rel="noopener noreferrer">
-                    <button className={styles.bu1}>LinkedIn</button>
+                    <button className={styles.bu2}>LinkedIn</button>
                   </a>
                 </div>
               </div>
