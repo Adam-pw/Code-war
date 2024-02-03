@@ -6,7 +6,6 @@ const team_heads = {
       name: "Antesh Tiwari",
       profile_pic: `${image_path}/Antesh_Tiwari.jpg`,
       department: "EC",
-      position:"President",
       linkedIn: "",
       instagram: "",
       external: "",
