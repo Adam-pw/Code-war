@@ -37,6 +37,7 @@ export default function Aboutcomp() {
                     name="Rishi Chhabra"
                     img="/images/Team/Rishi_Chhabra.jpeg"
                     branch="EC"
+                    position="President"
                     instagram=""
                     linkedin=""
                 />
