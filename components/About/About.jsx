@@ -36,7 +36,7 @@ export default function Aboutcomp() {
             <div className={styles.container}>
                <Card
                     name="Ankur Sharma"
-                    img="/images/Team/Ankur_Sharma.jpg"
+                    img="/images/Team/Ankur_Sharma.jpeg"
                     branch="CSE"
                     position="Operations Head | Social Media Handler"
                     instagram="ron_ankur_3"
