@@ -19,7 +19,6 @@ export default function Cardcomp(props) {
               </div>
               <div className={styles.info}></div>
               <div className={styles.actions}>
-                <br />
                 <div className={styles.cs}>
                   <a href={`https://www.instagram.com/${props.instagram}`} target="_blank" rel="noopener noreferrer">
                     <button className={styles.bu1}>Instagram</button>
