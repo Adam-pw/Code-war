@@ -55,7 +55,7 @@ export default function Aboutcomp() {
             <div className={styles.container}>
                 <Card
                     name="Shubhrat Tripathi"
-                    img="/images/Team/Shubhrat_Tripathia.jpg"
+                    img="/images/Team/Shubhrat_Tripathi.png"
                     branch="EEiot"
                     position="Secretary"
                     instagram=""
