@@ -8,7 +8,7 @@ export default function Cardcomp(props) {
     <>
       <div className={styles.container}>
         <div className={styles.card}>
-          
+          <div className={styles.lines}></div>
           <div className={styles.imageBox}>
             <Image width={500} height={500} className={styles.imge} src={props.img} alt="avatar" />
           </div>
