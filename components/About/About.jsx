@@ -17,7 +17,7 @@ export default function Aboutcomp() {
             <div className={styles.container}>
                 <Card
                     name="Teena Chhabra"
-                    img="/images/Team/Teena_Chhabra.jpg"
+                    img="/images/Team/Teena_Chhabra.jpeg"
                     branch="CSD"
                     position="President"
                     instagram="teena_chhabra_19"
@@ -71,7 +71,7 @@ export default function Aboutcomp() {
                 />
                 <Card
                     name="Saksham Tandel"
-                    img="/images/Team/Saksham_Tandel.jpg"
+                    img="/images/Team/Saksham_Tandel.png"
                     branch="CSE"
                     position="Technical Head"
                     instagram="saksham__140"
@@ -81,7 +81,7 @@ export default function Aboutcomp() {
             <div className={styles.container}>
                  <Card
                     name="Rishabh Pandey"
-                    img="/images/Team/Rishabh_Pandey.jpg"
+                    img="/images/Team/Rishabh_Pandey.png"
                     branch="ITiot"
                     position="Content Head"
                     instagram=""
