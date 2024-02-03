@@ -15,7 +15,7 @@ export default function Cardcomp(props) {
           <div className={styles.content}>
             <div className={styles.details}>
               <div className={styles.head}>
-                {props.name} <br /> <span className={styles.spand}>{props.branch}</span>
+                {props.name} <br /> <span className={styles.spand}>{props.branch} <br /> {props.position} </span>
               </div>
               <div className={styles.info}></div>
               <div className={styles.actions}>
