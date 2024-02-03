@@ -28,6 +28,7 @@ export default function Aboutcomp() {
                     name="Megha Tomar"
                     img="/images/Team/Megha_Tomar.jpg"
                     branch="ITIOT"
+                    position="President"
                     instagram=""
                     linkedin=""
                 />
