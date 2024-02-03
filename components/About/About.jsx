@@ -16,93 +16,109 @@ export default function Aboutcomp() {
             <div className={styles.text}><b>Team Heads</b></div>
             <div className={styles.container}>
                 <Card
-                    name="Antesh Tiwari"
-                    img="/images/Team/Antesh_Tiwari.jpg"
-                    branch="EC"
-                    position="President"
-                    instagram=""
-                    linkedin=""
-                />
-                <Card
-
-                    name="Megha Tomar"
-                    img="/images/Team/Megha_Tomar.jpg"
-                    branch="ITIOT"
-                    position="President"
-                    instagram=""
-                    linkedin=""
-                />
-                <Card
-
-                    name="Rishi Chhabra"
-                    img="/images/Team/Rishi_Chhabra.jpeg"
-                    branch="EC"
-                    position="President"
-                    instagram=""
-                    linkedin=""
-                />
-            </div>
-            <div className={styles.text}><b>Web-Dev Team</b></div>
-            <div className={styles.container}>
-                <Card
-                    name="Spandita Dwivedi"
-                    img="/images/Team/Spandita_dwivedi.jpeg"
-                    branch="AIADS"
-                    instagram=""
-                    linkedin=""
-                />
-                <Card
-                    name="Adam Pithenwala"
-                    img="/images/Team/Adam_Pithenwala.jpeg"
-                    branch="AIADS"
-                    instagram=""
-                    linkedin=""
-                />
-                <Card
-                    name="Tanvi Shah"
-                    img="/images/Team/Tanvi_Shah.jpeg"
-                    branch="AIADS"
-                    instagram=""
-                    linkedin=""
-                />
-            </div>
-            <div className={styles.text}><b>Team Design</b></div>
-            <div className={styles.container}>
-                <Card
                     name="Teena Chhabra"
-                    img="/images/Team/Teena_Chhabra.jpeg"
+                    img="/images/Team/Teena_Chhabra.jpg"
                     branch="CSD"
-                    instagram=""
+                    position="President"
+                    instagram="teena_chhabra_19"
                     linkedin=""
                 />
                 <Card
-                    name="Naman Dubey"
-                    img="/images/Team/Naman_Dubey.jpeg"
-                    branch="ITIOT"
-                    instagram=""
+                    name="Kratagya Shrivastava"
+                    img="/images/Team/Kratagya_Shrivastava.jpg"
+                    branch="EC"
+                    position="Vice President"
+                    instagram="kush__2722"
+                    linkedin=""
+                />
+            </div>
+            <div className={styles.text}><b>Web-Redesigned By</b></div>
+            <div className={styles.container}>
+               <Card
+                    name="Ankur Sharma"
+                    img="/images/Team/Ankur_Sharma.jpg"
+                    branch="CSE"
+                    position="Operations Head | Social Media Handler"
+                    instagram="ron_ankur_3"
                     linkedin=""
                 />
                 <Card
-                    name="Abhay Sonakiyaa"
-                    img="/images/Team/Abhay_Sonakiyaa.jpg"
-                    branch="CSD"
-                    instagram=""
+                    name="Krishna Tiwari"
+                    img="/images/Team/Krishna_Tiwari.jpg"
+                    branch="IT"
+                    position="Tech Member"
+                    instagram="krish.na_tiwari"
                     linkedin=""
                 />
             </div>
             <div className={styles.text}><b>Core Team Members</b></div>
             <div className={styles.container}>
                 <Card
-                    name="Aditya Soni"
-                    img="/images/Team/Aditya_Soni.jpg"
-                    branch="CSD"
+                    name="Shubhrat Tripathi"
+                    img="/images/Team/Shubhrat_Tripathia.jpg"
+                    branch="EEiot"
+                    position="Secretary"
                     instagram=""
                     linkedin=""
                 />
                 <Card
-                    name="Satyam Singh Tomar"
-                    img="/images/Team/Satyam_SIngh_Tomar.jpg"
-                    branch="IT"
+                    name="Aditya Soni"
+                    img="/images/Team/Aditya_Soni.jpg"
+                    branch="CSD"
+                    position="Secretary"
+                    instagram=""
+                    linkedin=""
+                />
+                <Card
+                    name="Saksham Tandel"
+                    img="/images/Team/Saksham_Tandel.jpg"
+                    branch="CSE"
+                    position="Technical Head"
+                    instagram="saksham__140"
+                    linkedin=""
+                />
+            </div>
+            <div className={styles.container}>
+                 <Card
+                    name="Rishabh Pandey"
+                    img="/images/Team/Rishabh_Pandey.jpg"
+                    branch="ITiot"
+                    position="Content Head"
+                    instagram=""
+                    linkedin=""
+                />
+                <Card
+                    name="Sagar Shukla"
+                    img="/images/Team/Sagar_Shukla.jpg"
+                    branch="EC"
+                    position="Graphics Head"
+                    instagram=""
+                    linkedin=""
+                />
+                <Card
+                    name="Areen Chouksey"
+                    img="/images/Team/Areen_Chouksey.jpg"
+                    branch="EC"
+                    position="Management Head"
+                    instagram=""
+                    linkedin=""
+                />
+            </div>
+            <div className={styles.container}>
+               
+                <Card
+                    name="Archit Singh Baghel"
+                    img="/images/Team/Archit_Singh_Baghel.jpg"
+                    branch="CSD"
+                    position="Finance Head"
+                    instagram=""
+                    linkedin=""
+                />
+                <Card
+                    name="Aditya Khash"
+                    img="/images/Team/Aditya_Khash.jpg"
+                    branch="CSD"
+                    position="Multimedia Head"
                     instagram=""
                     linkedin=""
                 />
